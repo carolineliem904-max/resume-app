@@ -3,7 +3,7 @@ import re
 from bs4 import BeautifulSoup
 
 # 1. Load raw CSV
-df = pd.read_csv("/Users/carolineliem/Documents/resume-app/Resume.csv")
+df = pd.read_csv("Resume.csv")
 
 # 2. Cleaning function
 def clean_resume_text(text: str) -> str:

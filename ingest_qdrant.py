@@ -11,7 +11,7 @@ from langchain_openai import OpenAIEmbeddings
 # ========= 1. CONFIG =========
 
 # Path ke CSV chunks yang tadi kamu buat
-CSV_PATH = "/Users/carolineliem/Documents/resume-app/cleaned_resume_chunks.csv"
+CSV_PATH = "cleaned_resume_chunks.csv"
 
 # Nama collection di Qdrant (bebas, tapi konsisten)
 COLLECTION_NAME = "resume_chunks"
